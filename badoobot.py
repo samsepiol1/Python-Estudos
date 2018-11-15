@@ -16,9 +16,9 @@ class Badoo:
         self.url1="https://www.facebook.com"
         self.driver.get(self.url1)
         barra_pesquisa1=self.driver.find_element_by_id('email')
-        barra_pesquisa1.send_keys('steve.jkl5@gmail.com')
+        barra_pesquisa1.send_keys('')
         barra_pesquisa2=self.driver.find_element_by_id('pass')
-        barra_pesquisa2.send_keys('imac88246948')
+        barra_pesquisa2.send_keys('')
         barra_pesquisa3=self.driver.find_element_by_id('u_0_2')
         barra_pesquisa3.send_keys(Keys.ENTER)
     def Search_Girl_Guys(self):
